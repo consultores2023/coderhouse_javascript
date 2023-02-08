@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="amount">Monto:</label>
+        <input type="text" id="amount" name="amount">
+      
+        <label for="months">Plazo:</label>
+        <select id="months" name="months">
+          <option value="6">6 meses</option>
+          <option value="12">12 meses</option>
+          <option value="24">24 meses</option>
+        </select>
+        
+        <fieldset>
+          <legend>Tipo de depósito:</legend>
+          <input type="radio" id="traditional" name="type" value="traditional">
+          <label for="traditional">Tradicional</label>
+          <input type="radio" id="adjustable" name="type" value="adjustable">
+          <label for="adjustable">Reajustable</label>
+        </fieldset>
+      
+        <button id="calculate">Simular</button>
+      </form>
+      
+      <div id="result"></div>
+</body>
+</html>
