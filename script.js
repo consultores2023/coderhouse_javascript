@@ -1,4 +1,3 @@
-
 // ESTE METODO CALCULA EL MONTO TOTAL
 function calculateTotal(amount, months, interestRate) {
     const interest = amount * interestRate * (months / 12);
